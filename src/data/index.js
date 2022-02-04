@@ -31,19 +31,19 @@ export const NavLinks = [
     subItems: [
       {
         name: "About The Trinity Guide Co.",
-        url: "/about-the-trinity-guide/",
+        url: "/about-the-trinity-guide",
       },
       {
         name: "How To Book",
-        url: "/how-to-book/",
+        url: "/how-to-book",
       },
       {
         name: "Fly Fishing the Trinity River",
-        url: "trinity-river-fly-fishing-guide/",
+        url: "/trinity-river-fly-fishing-guide",
       },
       {
         name: "River Rec Resources",
-        url: "/redding-ca-boat-ramps-river-access/",
+        url: "/redding-ca-boat-ramps-river-access",
       },
     ],
   },
@@ -53,19 +53,19 @@ export const NavLinks = [
     subItems: [
       {
         name: "Shasta Lake",
-        url: "/shasta-lake/",
+        url: "/shasta-lake",
       },
       {
         name: "Lower Sacramento River",
-        url: "/fishing-the-lower-sacramento-river-redding-california/",
+        url: "/fishing-the-lower-sacramento-river-redding-california",
       },
       {
         name: "Whiskeytown Lake",
-        url: "/whiskeytown-lake/",
+        url: "/whiskeytown-lake",
       },
       {
         name: "Trinity River",
-        url: "/trinity-river/",
+        url: "/trinity-river",
       },
       {
         name: "Smith River",
@@ -83,15 +83,15 @@ export const NavLinks = [
     subItems: [
       {
         name: "Nathaniel Kyncy",
-        url: "/pro-guide-nathaniel-kyncy/",
+        url: "/pro-guide-nathaniel-kyncy",
       },
       {
         name: "Big Tom Philips",
-        url: "/pro-guide-big-tom-philips/",
+        url: "/pro-guide-big-tom-philips",
       },
       {
         name: "Alex Ross",
-        url: "/pro-guide-alex-ross/",
+        url: "/pro-guide-alex-ross",
       },
     ],
   },
@@ -101,11 +101,11 @@ export const NavLinks = [
     subItems: [
       {
         name: "Fishing Reports",
-        url: "/fishing-report/",
+        url: "/fishing-report",
       },
       {
         name: "Fishing News",
-        url: "/fishing-news/",
+        url: "/fishing-news",
       },
      /* {
         name: "News 03",
@@ -119,7 +119,7 @@ export const NavLinks = [
   },
   {
     name: "Contact",
-    url: "/contact-the-trinity-guide/",
+    url: "/contact-the-trinity-guide",
   },
 ];
 
