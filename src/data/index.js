@@ -73,7 +73,7 @@ export const NavLinks = [
       },
       {
         name: "Lake Oroville",
-        url: "/lake-oroville.",
+        url: "/lake-oroville",
       },
     ],
   },
