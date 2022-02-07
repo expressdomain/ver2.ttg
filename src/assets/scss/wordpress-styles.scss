@@ -6,7 +6,11 @@
 @import '../../../node_modules/@wordpress/base-styles/z-index';
 @import '../../../node_modules/@wordpress/base-styles/default-custom-properties';
 
-/*** Custom WP styles ***/
+/*** Custom WP styles
+
+- Cover Block
+
+***/
 .blocks-gallery-item figure .inline-gatsby-image-wrapper {
   height: 100%;
 }
@@ -65,3 +69,13 @@
     display: block !important;
   }
 }
+
+/**
+  - Cover Block
+  ***************/
+.wp-block-cover__image-background {
+  position: absolute !important;
+  max-height: 275px !important;
+}
+
+

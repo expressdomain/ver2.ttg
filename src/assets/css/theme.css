@@ -1799,6 +1799,12 @@ License URI:
 .what_wedo_2 {
   background: #f4f4f4;
 }
+.what_wedo_2 .container .row  .col-lg-4.col-md-12 {
+  padding-bottom: 15px;
+}
+.what_wedo_2 .container .row  .col-lg-4.col-md-12:nth-child(4n) {
+  padding-top: 15px;
+}
 .single_wedo {
   position: relative;
   overflow: hidden;
@@ -1830,7 +1836,7 @@ License URI:
   top: 0;
   left: 0;
   margin: auto;
-  background: rgba(230, 43, 74, 0.7);
+  background: rgba(252, 176, 23, 0.8);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -1855,7 +1861,7 @@ License URI:
   letter-spacing: 0.72px;
   text-transform: uppercase;
   display: inline-block;
-  background: #fff;
+  background:rgba(255,255,255, 0.5);
   text-align: center;
   padding: 26px 0;
   width: 240px;

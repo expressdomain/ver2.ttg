@@ -604,32 +604,38 @@ export const ServicePostTwoData = {
   ],
 };
 
-import serviceOne01 from "@/images/home_1/6.jpg";
-import serviceOne02 from "@/images/home_1/7.jpg";
-import serviceOne03 from "@/images/home_1/8.jpg";
+import serviceOne01 from "@/images/river-lowersac/lower-sac-370x336.jpg";
+import serviceOne02 from "@/images/river-trinityriver/trinity-steelhead-370x336.jpg";
+import serviceOne03 from "@/images/lake-shasta/shasta-lake-370x336.jpg";
+import serviceOne04 from "@/images/lake-whiskeytown/whiskeytown-370x336.jpg";
 
 export const ServicePostThreeData = {
   sectionContent: {
     title: "Let’s go fishing",
-    subTitle: "what we do",
+    subTitle: "These are the waters we offer",
     text:
-      "We are committed to providing our guests with an exceptional fly fishing experience \n while offering our knowledge and experience to ensure the best possible outcome.",
+      "There is literally 365 days a year fly fishing opportunity in N. California. \n And we mean solid, quality fly fishing. Not just the chance to cast a fly rod. The following is a list of our favorite, most popular destinations.",
   },
   posts: [
     {
-      title: "guided fly fishing",
+      title: "Lower Sacramento River",
       image: serviceOne01,
-      url: "/guided-fly-fishing-details",
+      url: "/fishing-the-lower-sacramento-river-redding-california",
     },
     {
-      title: "casting instruction",
+      title: "Trinity River",
       image: serviceOne02,
-      url: "/guided-fly-fishing-details",
+      url: "/trinity-river",
     },
     {
-      title: "reading water 101",
+      title: "Shasta Lake",
       image: serviceOne03,
-      url: "/guided-fly-fishing-details",
+      url: "/shasta-lake",
+    },
+    {
+      title: "Whiskeytown Lake",
+      image: serviceOne04,
+      url: "/whiskeytown-lake",
     },
   ],
 };

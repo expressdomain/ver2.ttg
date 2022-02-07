@@ -86,7 +86,11 @@
     :root {
       --wp-admin-border-width-focus: 1.5px; } }
 
-/*** Custom WP styles ***/
+/*** Custom WP styles
+
+- Cover Block
+
+***/
 .blocks-gallery-item figure .inline-gatsby-image-wrapper {
   height: 100%; }
 
@@ -137,5 +141,12 @@
 .wp-block-image.size-large .inline-gatsby-image-wrapper.gatsby-image-wrapper {
   margin: 0 auto !important;
   display: block !important; }
+
+/**
+  - Cover Block
+  ***************/
+.wp-block-cover__image-background {
+  position: absolute !important;
+  max-height: 275px !important; }
 
 /*# sourceMappingURL=wordpress-styles.css.map */

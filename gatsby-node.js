@@ -53,6 +53,7 @@ exports.createPages = ({ graphql, actions }) => {
                 status
                 title
                 content
+                link
                 template {
                   templateName
                   ... on WpDefaultTemplate {
