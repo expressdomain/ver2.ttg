@@ -89,9 +89,9 @@ const PopupMenu = () => {
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
                 <li>Phone: (530) 338-5734</li>
-                <li><a href="/contact" title="Contact The Trinity Guide">Contact Alex Ross | The Trinity Guide</a></li>
+                <li><a href="/contact-the-trinity-guide" title="Contact The Trinity Guide">Contact Alex Ross | The Trinity Guide</a></li>
                 <li>
-                  Address: Douglas City California
+                  Address: Douglas City, California 96024
                 </li>
               </ul>
             </div>
@@ -99,18 +99,13 @@ const PopupMenu = () => {
               <div className="popUp_social text-center text-md-right">
                 <ul>
                   <li>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>Twitter
+                    <a href="https://www.instagram.com/thetrinityguide/">
+                      <i className="fa fa-instagram"></i>Instagram
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/thetrinityguide">
                       <i className="fa fa-facebook-square"></i>Facebook
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-youtube-play"></i>Youtube
                     </a>
                   </li>
                 </ul>
