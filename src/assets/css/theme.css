@@ -47,6 +47,10 @@ License URI:
 /*----------------------------------------------------
 / 1. Header 01
 ------------------------------------------------------*/
+.header_01.fixedHeader.animated.flipInX .container-fluid .justify-content-between.row .col-6 .logo a img {
+  width: 80px;
+  transition: 0.5s;
+}
 .header_01 {
   position: absolute;
   left: 0;
@@ -63,6 +67,7 @@ License URI:
 .logo img {
   max-width: 100%;
   height: auto;
+  transition: 0.5s;
 }
 .logo h1 {
   font-size: calc( 16px + (24 - 16)*(100vw - 400px)/(1100 - 100));
@@ -1802,7 +1807,7 @@ License URI:
 .what_wedo_2 .container .row  .col-lg-4.col-md-12 {
   padding-bottom: 15px;
 }
-.what_wedo_2 .container .row  .col-lg-4.col-md-12:nth-child(4n) {
+.what_wedo_2 .container .row  .col-lg-4.col-md-12:nth-child(n+4) {
   padding-top: 15px;
 }
 .single_wedo {
@@ -3038,6 +3043,9 @@ textarea.input-form:focus {
   position: absolute;
   left: 0;
   top: 30px;
+}
+.logo2 a img {
+  width: 170px;
 }
 .footer__contacts {
   position: absolute;

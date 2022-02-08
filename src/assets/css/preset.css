@@ -25,6 +25,8 @@ License URI:
 / 1. Font Settings
 ------------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
 
 body, html{
     margin: 0;
@@ -68,6 +70,10 @@ ul li{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.logo a h1 {
+    font-family: 'Cookie', cursive;
+    color: #f2c65a;
 }
 
 /*------------------------------------------------------------------------------
