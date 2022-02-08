@@ -13,6 +13,7 @@ import "@/css/font-awesome.min.css";
 import "@/css/icons.css";
 import "@/css/preset.css";
 import "@/css/theme.css";
+import "@/css/custom.css";
 import "@/css/responsive.css";
 
 const Layout = ({ PageTitle, children }) => {
