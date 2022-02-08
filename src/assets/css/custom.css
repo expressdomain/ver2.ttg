@@ -1,0 +1,20 @@
+/***
+Custom CSS
+
+    - Report
+ */
+
+
+
+/**************
+    - Report
+    ***********/
+.report-wrapper,
+.news-wrapper,
+.post-wrapper,
+.page-wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 3.618em;
+    background: #F5f5f5;
+}
