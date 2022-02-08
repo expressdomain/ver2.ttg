@@ -25,9 +25,11 @@ const postConst = ({pageContext}) => (
 				<HeaderOne />
 				<PageBanner title={pageContext.title} name={pageContext.title} />
 				<section className="commonSection">
+					<div className="post-wrapper">
 				<div className='container page-container'>
 					<div className='page-container-content' dangerouslySetInnerHTML={{__html: pageContext.content}} />
 				</div>
+					</div>
 				</section>
 				<Footer />
 			</Layout>

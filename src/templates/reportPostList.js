@@ -41,6 +41,7 @@ const reportConst = ({pageContext}) => (
 				<HeaderOne />
 				<PageBanner title={pageContext.title} name={pageContext.title} />
 				<section className="commonSection mb-1618">
+					<div className="report-wrapper">
 					{pageContext.posts.map(post =>(
 						<div key={post.node.id} className="container">
 							<Link to={`/fishing-report/${post.node.slug}`}>
@@ -81,7 +82,7 @@ const reportConst = ({pageContext}) => (
 					</Pagination>
 				
 				
-				
+					</div>
 				</section>
 				<Footer />
 			</Layout>

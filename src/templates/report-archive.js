@@ -28,6 +28,7 @@ const reportArchiveConst = ({pageContext}) => (
 				<HeaderOne />
 				<PageBanner title={pageContext.title} name={pageContext.title} />
 				<section className="commonSection">
+					<div className="report-wrapper">
 					<div className='container page-container'>
 						
 						<div className="container featured-image">
@@ -35,6 +36,7 @@ const reportArchiveConst = ({pageContext}) => (
 						</div>
 						
 						<div className='page-container-content' dangerouslySetInnerHTML={{__html: pageContext.content}} />
+					</div>
 					</div>
 				</section>
 				<Footer />
