@@ -608,6 +608,8 @@ import serviceOne01 from "@/images/river-lowersac/lower-sac-370x336.jpg";
 import serviceOne02 from "@/images/river-trinityriver/trinity-steelhead-370x336.jpg";
 import serviceOne03 from "@/images/lake-shasta/shasta-lake-370x336.jpg";
 import serviceOne04 from "@/images/lake-whiskeytown/whiskeytown-370x336.jpg";
+import serviceOne05 from "@/images/lake-oroville/lake-oroville-370x336.jpg";
+import serviceOne06 from "@/images/river-smithriver/smith-river-370x336.jpg";
 
 export const ServicePostThreeData = {
   sectionContent: {
@@ -636,6 +638,16 @@ export const ServicePostThreeData = {
       title: "Whiskeytown Lake",
       image: serviceOne04,
       url: "/whiskeytown-lake",
+    },
+    {
+      title: "Lake Oroville",
+      image: serviceOne05,
+      url: "/lake-oroville",
+    },
+    {
+      title: "Smith River",
+      image: serviceOne06,
+      url: "/smith-river",
     },
   ],
 };
