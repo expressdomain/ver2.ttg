@@ -578,7 +578,7 @@ export const ServicePostTwoData = {
       title2: "Stay Informed",
       iconName: "mei-computer-graphic",
       image: serviceposttwo2,
-      url: "/guided-fly-fishing-details",
+      url: "/fishing-news",
     },
     {
       title: "Fishing Tips and Tricks",
