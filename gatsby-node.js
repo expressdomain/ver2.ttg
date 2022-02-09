@@ -34,6 +34,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 // Will create pages for WordPress posts (route : /post/{slug})
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
+  const CategoryPage = path.resolve()
   //createRedirect({ fromPath: '/', toPath: '/', redirectInBrowser: true, isPermanent: true })
   return new Promise((resolve, reject) => {
     // The “graphql” function allows us to run arbitrary
@@ -238,14 +239,45 @@ exports.createPages = ({ graphql, actions }) => {
              context: post.node
            })
          })
-       
-         resolve()
-       
-       
+         
+         //resolve()
+         
        })
-     
-     
-     })
-  })
+     }).then(() => {
+      graphql(`{
+        allWpCategory {
+          edges {
+            node {
+              name
+              slug
+            }
+          }
+        }
+       }`).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+        const Categories = result.data.allWpCategory.edges
+        //const postsPerPage = 10
+        //const numberOfPages = Math.ceil(category.length / postsPerPage)
+        const CategoryPage = path.resolve("./src/templates/CategoryPage.js")
+        
+       
+        Categories.forEach( category => {
+          createPage({
+            path: `/category/${category.node.slug}`,
+            component: CategoryPage,
+            context: {
+              category: category.node.name
+            }
+          })
+        })
+        
+        resolve()
+        
+        })
+      })
+    })
   }
 
