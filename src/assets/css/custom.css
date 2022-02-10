@@ -1,10 +1,28 @@
 /***
 Custom CSS
-
+    - Categories
     - Report
  */
 
+/**************
+    - Categories
+    ***********/
+.category-chiclet {
+    background-color: #fcb017;
+}
 
+    .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-row.row:after,
+    .flex-row.row:before {
+        display: flex;
+    }
 
 /**************
     - Report
