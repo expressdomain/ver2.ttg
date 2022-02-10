@@ -260,10 +260,9 @@ exports.createPages = ({ graphql, actions }) => {
         }
         const Categories = result.data.allWpCategory.edges
         //const postsPerPage = 10
-        //const numberOfPages = Math.ceil(category.length / postsPerPage)
+        //const numberOfPages = Math.ceil(Categories.length / postsPerPage)
         const CategoryPage = path.resolve("./src/templates/CategoryPage.js")
         
-       
         Categories.forEach( category => {
           createPage({
             path: `/category/${category.node.slug}`,
