@@ -52,6 +52,10 @@ export const NavLinks = [
     url: "/our-waters",
     subItems: [
       {
+        name: "Locations",
+        url: "/category/locations"
+      },
+      {
         name: "Shasta Lake",
         url: "/shasta-lake",
       },
