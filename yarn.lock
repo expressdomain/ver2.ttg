@@ -2282,6 +2282,13 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-helmet@^6.1.0":
+  version "6.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-6.1.5.tgz#35f89a6b1646ee2bc342a33a9a6c8777933f9083"
+  integrity sha512-/ICuy7OHZxR0YCAZLNg9r7I9aijWUWvxaPR6uTuyxe8tAj5RL4Sw1+R6NhXUtOsarkGYPmaHdBDvuXh2DIN/uA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-transition-group@^4.4.1":
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.4.tgz#acd4cceaa2be6b757db61ed7b432e103242d163e"
@@ -6446,7 +6453,7 @@ gatsby-plugin-gatsby-cloud@^3.2.1:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
 
-gatsby-plugin-image@^1.14.2:
+gatsby-plugin-image@^1.14.2, gatsby-plugin-image@^1.5.0:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-1.14.2.tgz#3955e370d8eb96cd3675001220f315a66ad8ea06"
   integrity sha512-5kw7sAjqrNfMz7E1oMVfOz4CrG6AtIQNYVl1jTAI9sAuTLz/EJEHOM2z54pFUk/irNkrhXDZyEnDjY2d06U7rQ==
@@ -6564,6 +6571,14 @@ gatsby-plugin-utils@^1.14.0:
   dependencies:
     "@babel/runtime" "^7.15.4"
     joi "^17.4.2"
+
+gatsby-plugin-wpgraphql-seo@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-wpgraphql-seo/-/gatsby-plugin-wpgraphql-seo-1.4.1.tgz#089a32cdabeeaf0fc4d078392c43c83058f71ba1"
+  integrity sha512-uD6H4xSZFuCjFNMQ6zuEDfEPV46Y35OaIaMcOVebOHXza1gv1OmLKc6qmG22Q0yTvDkLc8kyUiTpQI31ytitpA==
+  dependencies:
+    "@types/react-helmet" "^6.1.0"
+    gatsby-plugin-image "^1.5.0"
 
 gatsby-react-router-scroll@^4.14.0:
   version "4.14.0"
