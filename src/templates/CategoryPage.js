@@ -17,7 +17,7 @@ import "@wordpress/block-library/build-style/theme.css";
 const TrinityGuideCatPage = ({pageContext, data}) => (
 	<MenuContextProvider>
 		<SearchContextProvider>
-			<Layout PageTitle="Services Page">
+			<Layout PageTitle={pageContext.category}>
 				<HeaderOne />
 				<PageBanner title={pageContext.category} name={pageContext.category} />
 				<section className="commonSection">
