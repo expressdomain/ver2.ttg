@@ -117,7 +117,6 @@ const Layout = ({ PageTitle, children }) => {
         }
     `);
   
-  
   return (
    <SEOContext.Provider value={{ global: seo }}>
     <Fragment>
