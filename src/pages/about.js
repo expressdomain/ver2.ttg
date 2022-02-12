@@ -14,7 +14,6 @@ import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import Footer from "@/components/footer";
-import { graphql, StaticQuery } from 'gatsby'
 
 const AboutPage = () => {
   return (
