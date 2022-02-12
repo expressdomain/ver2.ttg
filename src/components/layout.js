@@ -38,9 +38,6 @@ const Layout = ({ PageTitle, children }) => {
     };
   }, [scrollTop]);
   
-  
-  
-  
   const {
     wp: { seo },
   } = useStaticQuery(graphql`
