@@ -118,22 +118,12 @@ const Layout = ({ PageTitle, children }) => {
     `);
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
   return (
    <SEOContext.Provider value={{ global: seo }}>
     <Fragment>
       <Helmet>
         <title>
-          {PageTitle} - Guided Fly Fishing - Redding California
+          {`PageTitle`} - Guided Fly Fishing - Redding California
         </title>
       </Helmet>
       <div id="wrapper">{children}</div>
