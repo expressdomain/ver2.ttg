@@ -25,7 +25,7 @@ const FeaturedImage = styled.img`
 const reportArchiveConst = ({pageContext}) => (
 	<MenuContextProvider>
 		<SearchContextProvider>
-			<Layout PageTitle="Reports Page">
+			<Layout PageTitle="Fishing Reports - The Trinity Guide Co.">
 				<HeaderOne />
 				<PageBanner title={pageContext.title} name={pageContext.title} />
 				<section className="commonSection">

@@ -37,7 +37,7 @@ const FeaturedImage = styled.img`
 const reportConst = ({pageContext}) => (
 	<MenuContextProvider>
 		<SearchContextProvider>
-			<Layout PageTitle="News">
+			<Layout PageTitle={pageContext.title}>
 				<HeaderOne />
 				<PageBanner title={pageContext.title} name={pageContext.title} />
 				<section className="commonSection mb-1618">
