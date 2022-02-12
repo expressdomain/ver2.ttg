@@ -118,9 +118,7 @@ const Layout = ({ PageTitle, children }) => {
    <SEOContext.Provider value={{ global: seo }}>
     <Fragment>
       <Helmet>
-        <title>
-          {`PageTitle`} - Guided Fly Fishing - Redding California
-        </title>
+        <title>{ `${ PageTitle } - Guided Fly Fishing - N. California` }</title>
       </Helmet>
       <div id="wrapper">{children}</div>
       {true === searchStatus ? <SearchPopup /> : null}
