@@ -1,4 +1,5 @@
 import React from "react";
+import Seo from 'gatsby-plugin-wpgraphql-seo';
 import Footer from "@/components/footer";
 import Layout from "@/components/layout";
 import PageBanner from "@/components/page-banner";
@@ -10,6 +11,7 @@ import {CategoriesList} from "../components/categories";
 import "../assets/scss/wordpress-styles.css";
 import "@wordpress/block-library/build-style/style.css";
 import "@wordpress/block-library/build-style/theme.css";
+import {graphql} from "gatsby";
 
 /*const postConst = ({pageContext}) => (
 		<div>
@@ -19,26 +21,68 @@ import "@wordpress/block-library/build-style/theme.css";
 
 export default postConst*/
 
-const postConst = ({pageContext}) => (
-	<MenuContextProvider>
-		<SearchContextProvider>
-			<Layout PageTitle="Services Page">
-				<HeaderOne />
-				<PageBanner title={pageContext.title} name={pageContext.title} />
-				<section className="commonSection">
-					<div className="post-wrapper">
-				<div className='container page-container'>
-					<div className='page-container-content' dangerouslySetInnerHTML={{__html: pageContext.content}} />
-				</div>
+const postConst = ({pageContext, data: { wpPost }}) => (
+	<>
+		<Seo post={wpPost} />
+		<MenuContextProvider>
+			<SearchContextProvider>
+				<Layout PageTitle={pageContext.title}>
+					<HeaderOne />
+					<PageBanner title={pageContext.title} name={pageContext.title} />
+					<section className="commonSection">
+						<div className="post-wrapper">
+					<div className='container page-container'>
+						<div className='page-container-content' dangerouslySetInnerHTML={{__html: pageContext.content}} />
 					</div>
-				</section>
-				<section className="commonSection category-chiclet-wrapper">
-					<CategoriesList />
-				</section>
-				<Footer />
-			</Layout>
-		</SearchContextProvider>
-	</MenuContextProvider>
+						</div>
+					</section>
+					<section className="commonSection category-chiclet-wrapper">
+						<CategoriesList />
+					</section>
+					<Footer />
+				</Layout>
+			</SearchContextProvider>
+		</MenuContextProvider>
+	</>
 );
 
 export default postConst
+
+export const postQuery = graphql`
+	query GET_POST($id: String!) {
+        wpPost(id: { eq: $id }) {
+            nodeType
+            title
+            uri
+            seo {
+                title
+                metaDesc
+                focuskw
+                metaKeywords
+                metaRobotsNoindex
+                metaRobotsNofollow
+                opengraphTitle
+                opengraphDescription
+                opengraphImage {
+                    altText
+                    sourceUrl
+                    srcSet
+                }
+                twitterTitle
+                twitterDescription
+                twitterImage {
+                    altText
+                    sourceUrl
+                    srcSet
+                }
+                canonical
+                cornerstone
+                schema {
+                    articleType
+                    pageType
+                    raw
+                }
+            }
+        }
+    }
+`;
