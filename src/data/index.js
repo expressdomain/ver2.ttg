@@ -428,48 +428,48 @@ export const BlogComments = [
 ];
 
 import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
+import portfolio02 from "@/images/portfolio/whiskeytown.jpg";
 import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import portfolio06 from "@/images/portfolio/6.jpg";
+import portfolio04 from "@/images/portfolio/shasta-lake.jpg";
+import portfolio05 from "@/images/portfolio/smith-river.jpg";
+import portfolio06 from "@/images/portfolio/lake-oroville.jpg";
 
 export const PortfolioData = [
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "nymphing"],
+    title: "Lower Sacramento River",
+    categories: ["Over 50 miles of productive rainbow trout water and occasional steelhead"],
     image: portfolio01,
-    url: "/portfolio-details",
+    url: "/fishing-the-lower-sacramento-river-redding-california",
   },
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "swing"],
+    title: "Whiskeytown Lake",
+    categories: ["Kokanee", "Bass"],
     image: portfolio02,
-    url: "/portfolio-details",
+    url: "/whiskeytown-lake",
   },
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "dry"],
+    title: "Trinity River",
+    categories: ["Steelhead", "Brown Trout", "King Salmon"],
     image: portfolio03,
-    url: "/portfolio-details",
+    url: "/trinity-river",
   },
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "streamer"],
+    title: "Shasta Lake",
+    categories: ["Rainbow Trout", "Kokanee", "Brown Trout", "Bass"],
     image: portfolio04,
-    url: "/portfolio-details",
+    url: "/shasta-lake",
   },
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "wading"],
+    title: "Smith River",
+    categories: ["Steelhead", "King Salmon"],
     image: portfolio05,
-    url: "/portfolio-details",
+    url: "/smith-river",
   },
   {
-    title: "Fly Fishing Styles",
-    categories: ["all", "drift-boat"],
+    title: "Lake Oroville",
+    categories: ["Kokanee", "Rainbow Trout"],
     image: portfolio06,
-    url: "/portfolio-details",
+    url: "/lake-oroville",
   },
 ];
 
@@ -755,7 +755,7 @@ export const TeamOneData = {
       image: team01,
       name: "Big Tom Philips",
       designation: "Pro Guide",
-      url: "#",
+      url: "/pro-guide-big-tom-philips",
       socials: [
         {
           name: "Facebook",
@@ -779,15 +779,15 @@ export const TeamOneData = {
       socials: [
         {
           name: "Facebook",
-          url: "#",
+          url: "https://www.facebook.com/alex.ross.50596013",
         },
         {
-          name: "Twitter",
-          url: "#",
+          name: "Instagram",
+          url: "https://www.instagram.com/thewildernessblackbelt/",
         },
         {
           name: "Linkedin",
-          url: "#",
+          url: "https://www.linkedin.com/in/thetrinityguide/",
         },
       ],
     },
@@ -795,19 +795,15 @@ export const TeamOneData = {
       image: team03,
       name: "Nathan Kyncy",
       designation: "Pro Guide",
-      url: "#",
+      url: "/pro-guide-nathaniel-kyncy",
       socials: [
         {
           name: "Facebook",
-          url: "#",
+          url: "https://www.facebook.com/nathaniel.kyncy",
         },
         {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
+          name: "Instagram",
+          url: "https://www.instagram.com/nathanielkyncy/",
         },
       ],
     },
@@ -1049,12 +1045,15 @@ export const FeatureTabData = {
   ],
 };
 
+import logoParallax from "@/images/ver2-thetrinityguide-logo.png";
+
 export const ParallaxOneData = {
   iconName: "mei-team",
   title: "Great happens because we fish great water.",
-  specialText: "Our guides take a good day and turn it into a great day.",
+  specialText: " Our guides take a good day and turn it into a great day.",
   text:
     "We are committed to providing our guests with an exceptional experience \n while sharing knowledge and experience.",
+  image: logoParallax,
 };
 
 export const PortfolioHomeData = {
@@ -1090,7 +1089,7 @@ export const AboutTwoData = {
     title: "For a great experience, select The Trinity Guide",
     subTitle: "Tight lines, big smiles",
     text:
-      "We are committed to providing our guests with an exceptional experience while offering our experience and knowledge. Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the Gold Rush of 1854.",
+      "We are committed to providing our guests with an exceptional experience. Make your next fly fishing vacation a Trinity Guide vacation.",
   },
   button: {
     label: "Learn More",
