@@ -81,13 +81,13 @@ const HeaderOne = () => {
           </Col>
           <Col lg={2} md={2} sm={4} className="col-6">
             <div className="navigator text-right">
-              <a
+              {/*<a
                 className="search searchToggler"
                 href="#"
                 onClick={handleSearchClick}
               >
                 <i className="mei-magnifying-glass"></i>
-              </a>
+              </a>*/}
               <a
                 href="#"
                 className="menu mobilemenu d-none d-md-none d-lg-none"
