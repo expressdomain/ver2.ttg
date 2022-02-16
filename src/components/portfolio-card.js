@@ -6,7 +6,7 @@ const PortfolioCard = ({ data }) => {
     <div className={`singlefolio`}>
       <img src={image} alt={title} />
       <div className="folioHover">
-        <a className="cate" href="#">
+        <a className="cate" href={url}>
           {categories.map(cat => cat + ", ")}
         </a>
         <h4>

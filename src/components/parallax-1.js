@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ParallaxOneData } from "@/data";
 
 const ParallaxOne = () => {
-  const { iconName, title, specialText, text } = ParallaxOneData;
+  const { iconName, title, specialText, text, image } = ParallaxOneData;
   return (
     <section className="commonSection testimonial">
       <Container>
@@ -11,7 +11,8 @@ const ParallaxOne = () => {
           <Col lg={{ span: 10, offset: 1 }} sm={12} className="text-center">
             <div className="testimonial_content">
               <div className="testi_icon">
-                <i className={iconName}></i>
+                {/*<i className={iconName}></i>*/}
+                <img src={image} alt={title} />
               </div>
               <h2>
                 {title}

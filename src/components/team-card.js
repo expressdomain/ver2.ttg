@@ -17,8 +17,10 @@ const TeamCard = ({ data }) => {
         </div>
       </div>
       <div className="detail_TM">
+        <a href={url}>
         <h5>{name}</h5>
         <h6>{designation}</h6>
+        </a>
       </div>
     </div>
   );
