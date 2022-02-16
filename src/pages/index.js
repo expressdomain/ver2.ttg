@@ -6,7 +6,7 @@ import CallToActionOne from "@/components/call-to-action-one";
 import Footer from "@/components/footer";
 import BlogHome from "@/components/blog-home";
 import ParallaxOne from "@/components/parallax-1";
-import ClientCarouselOne from "@/components/client-carousel-one";
+//import ClientCarouselOne from "@/components/client-carousel-one";
 import TeamCarousel from "@/components/team-carousel";
 import FunfactOne from "@/components/funfact-one";
 import TrustedClient from "@/components/trusted-client";
@@ -35,7 +35,7 @@ const HomeOne = () => {
 					<FunfactOne />
 					<TrustedClient />
 					<TeamCarousel />
-					<ClientCarouselOne />
+					{/*<ClientCarouselOne/>*/}
 					<ParallaxOne />
 					<BlogHome />
 					<CallToActionOne extraClassName="ready" />
