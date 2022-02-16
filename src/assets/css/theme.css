@@ -1177,9 +1177,9 @@ License URI:
   padding: 0 65px;
 }
 .testimonial_content .testi_icon {
-  width: 115px;
+  /*width: 115px;
   height: 115px;
-  background: #fcb017;
+  background: #fcb017;*/
   text-align: center;
   display: inline-block;
   font-size: 64px;
