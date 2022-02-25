@@ -284,7 +284,7 @@ export const ContactFormTitle = {
 
 import blogImage1 from "@/images/blog/lake-shasta-brown.jpg";
 import blogImage2 from "@/images/blog/lower-sac-rainbow-november-2021.jpg";
-import blogImage3 from "@/images/blog/lower-sac-rainbow-girl-august-21.jpg";
+import blogImage3 from "@/images/blog/lower-sac-rainbow-dude-august-21.jpg";
 import blogImage4 from "@/images/blog/4.jpg";
 import blogImage5 from "@/images/blog/5.jpg";
 import blogImage6 from "@/images/blog/6.jpg";
