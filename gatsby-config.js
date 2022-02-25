@@ -1,9 +1,9 @@
 process.traceDeprecation = true;
 module.exports = {
   siteMetadata: {
-    title: `The Trinity Guide - Gatsby Template`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Chris Parsons`,
+    title: `The Trinity Guide Co.`,
+    description: `Guided fly fishing on the Lower Sacramento River, Trinity River, for rainbow trout and steelhead.`,
+    author: `Alex Ross`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

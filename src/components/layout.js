@@ -18,7 +18,7 @@ import "@/css/theme.css";
 import "@/css/custom.css";
 import "@/css/responsive.css";
 
-const Layout = ({ PageTitle, children }) => {
+const Layout = ({ PageTitle, PageDescription, children }) => {
   const { searchStatus } = useContext(SearchContext);
   const { menuStatus } = useContext(MenuContext);
   const [scrollTop, setScrollTop] = useState(false);
@@ -118,7 +118,8 @@ const Layout = ({ PageTitle, children }) => {
    <SEOContext.Provider value={{ global: seo }}>
     <Fragment>
       <Helmet>
-        <title>{ `${ PageTitle } - Guided Fly Fishing - N. California` }</title>
+        <title>{ `${ PageTitle }` }</title>
+        <meta name='description' content={`${PageDescription}`} />
       </Helmet>
       <div id="wrapper">{children}</div>
       {true === searchStatus ? <SearchPopup /> : null}

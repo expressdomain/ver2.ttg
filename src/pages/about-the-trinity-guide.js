@@ -20,9 +20,9 @@ const AboutPage = () => {
   return (
    <MenuContextProvider>
      <SearchContextProvider>
-       <Layout PageTitle="About Us Page">
+       <Layout PageTitle="About Us | The Trinity Guide Co." PageDescription="Find out about The Trinity Guide Co. Based in Douglas City along the Trinity River. Guided Fly Fishing.">
          <HeaderOne />
-         <PageBanner title="About Us" name="About" />
+         <PageBanner title="About Us" name="About Us" />
          <AboutOne />
          
          <section className="commonSection">

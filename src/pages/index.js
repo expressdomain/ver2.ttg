@@ -24,7 +24,7 @@ const HomeOne = () => {
 	return (
 		<MenuContextProvider>
 			<SearchContextProvider>
-				<Layout PageTitle="The Trinity Guide">
+				<Layout PageTitle="The Trinity Guide Co." PageDescription="Guided fly fishing on lakes and rivers. Steelhead and Trout. In Shasta and Trinity Counties.">
 					<HeaderOne />
 					<SliderOne />
 					<ServiceTwo />
